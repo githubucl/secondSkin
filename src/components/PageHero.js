@@ -15,21 +15,26 @@ const PageHero = ({ title, product }) => {
 }
 
 const Wrapper = styled.section`
-  background: var(--clr-primary-10);
-  width: 100%;
-  min-height: 20vh;
-  display: flex;
-  align-items: center;
-
+background: var(--clr-primary-10);
+width: 100%;
+min-height: 7vh;
+display: flex;
+align-items: center;
+.section-center{
+  margin-bottom:-12px
+}
+h5{
+line-height:7vh;
+}
+color: var(--clr-primary-1);
+a {
+  color: var(--clr-primary-3);
+  padding: 0.5rem;
+  transition: var(--transition);
+}
+a:hover {
   color: var(--clr-primary-1);
-  a {
-    color: var(--clr-primary-3);
-    padding: 0.5rem;
-    transition: var(--transition);
-  }
-  a:hover {
-    color: var(--clr-primary-1);
-  }
+}
 `
 
 export default PageHero

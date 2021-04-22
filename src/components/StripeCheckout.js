@@ -28,6 +28,7 @@ const CheckoutForm = () => {
   const elements = useElements()
 
   const createPaymentIntent = async () => {
+    // console.log('hi');
     try {
       const { data } = await axios.post(
         '/.netlify/functions/create-payment-intent',
