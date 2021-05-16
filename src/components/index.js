@@ -17,7 +17,9 @@ import Stars from './Stars'
 import CartContent from './CarContent'
 import PageHero from './PageHero'
 import StripeCheckout from './StripeCheckout'
+import Three from './Three'
 export {
+  Three,
   FeaturedProducts,
   Navbar,
   CartButtons,
